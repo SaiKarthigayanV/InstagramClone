@@ -7,11 +7,11 @@ function Profiles() {
     const [followers, setFollowers] = useState([]);
 
     useEffect(() => {
-        axios.get('https://instagramclone-fhdt.onrender.com/profile').
+        axios.get('http://localhost:3000/profile').
         then(data => setProfile(data.data)).
         catch(err => console.log(err))
 
-        axios.get('https://instagramclone-fhdt.onrender.com/followers').
+        axios.get('http://localhost:3000/followers').
         then(data => setFollowers(data.data)).
         catch(err => console.log(err))
     },[]);
@@ -24,13 +24,13 @@ function Profiles() {
     }
 
     const handleUpdate = async () => {
-        axios.put('https://instagramclone-fhdt.onrender.com/profile',profile).
+        axios.put('http://localhost:3000/profile',profile).
         then(console.log("Updated")).
         catch(err => console.log(err))
     }
 
     const handleUnFollow = async (id) => {
-        axios.delete(`https://instagramclone-fhdt.onrender.com//followers/${id}`)
+        axios.delete(`http://localhost:3000//followers/${id}`)
         .then(alert("UnFollwed..."))
         .catch(err => console.log(err))
     }

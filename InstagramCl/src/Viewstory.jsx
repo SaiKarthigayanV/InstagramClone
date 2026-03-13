@@ -8,7 +8,7 @@ function Viewstory() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch(`https://instagramclone-fhdt.onrender.com/story/${id}`)
+    fetch(`http://localhost:3000/story/${id}`)
       .then(res => res.json())
       .then(data => setStory(data))
       .catch(err => console.log(err));

@@ -7,19 +7,19 @@ function Suggestions() {
     const [suggestions, setSuggestions] = useState([]);
 
     useEffect(() => {
-        fetch('https://instagramclone-fhdt.onrender.com/profile').
+        fetch('http://localhost:3000/profile').
             then(data => data.json()).
             then(data => setProfile(data)).
             catch(err => console.log(err))
 
-        fetch('https://instagramclone-fhdt.onrender.com/suggestions').
+        fetch('http://localhost:3000/suggestions').
             then(data => data.json()).
             then(data => setSuggestions(data)).
             catch(err => console.log(err))
     },[]);
 
     const handleFollow = async (id, username) => {
-        axios.post('https://instagramclone-fhdt.onrender.com/followers',{"id":id, "username":username}).
+        axios.post('http://localhost:3000/followers',{"id":id, "username":username}).
         then(alert('Followed...')).
         catch(err => console.log(err))
     }
