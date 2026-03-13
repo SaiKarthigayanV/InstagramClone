@@ -7,7 +7,7 @@
       "caption": "Never give up! Dattebayo 🔥",
       "likes": 12890,
       "comments": 540,
-      "video": "src/assets/videos/wolverine.mp4",
+      "video": "/videos/wolverine.mp4",
       "anime": "Naruto"
     },
     {
@@ -17,7 +17,7 @@
       "caption": "Levi vs Titans 🗡️",
       "likes": 22100,
       "comments": 1200,
-      "video": "src/assets/videos/asta.mp4",
+      "video": "/videos/asta.mp4",
       "anime": "Attack on Titan"
     },
     {
@@ -27,7 +27,7 @@
       "caption": "Gojo showing his power ⚡",
       "likes": 30900,
       "comments": 1800,
-      "video": "src/assets/videos/mha.mp4",
+      "video": "/videos/mha.mp4",
       "anime": "Jujutsu Kaisen"
     },
     {
@@ -37,7 +37,7 @@
       "caption": "Tanjiro breathing technique 🔥",
       "likes": 25600,
       "comments": 990,
-      "video": "src/assets/videos/sanji.mp4",
+      "video": "/videos/sanji.mp4",
       "anime": "Demon Slayer"
     },
     {
@@ -47,7 +47,7 @@
       "caption": "Luffy Gear 5 transformation ☠️",
       "likes": 40100,
       "comments": 2100,
-      "video": "src/assets/videos/gojo.mp4",
+      "video": "/videos/gojo.mp4",
       "anime": "One Piece"
     }
   ],
@@ -91,7 +91,7 @@
       "caption": "Never give up! Dattebayo 🔥",
       "likes": 12890,
       "comments": 540,
-      "video": "src/assets/videos/wolverine.mp4",
+      "video": "/videos/wolverine.mp4",
       "anime": "Naruto"
     },
     {
@@ -101,7 +101,7 @@
       "caption": "Levi vs Titans 🗡️",
       "likes": 22100,
       "comments": 1200,
-      "video": "src/assets/videos/asta.mp4",
+      "video": "/videos/asta.mp4",
       "anime": "Attack on Titan"
     },
     {
@@ -111,7 +111,7 @@
       "caption": "Gojo showing his power ⚡",
       "likes": 30900,
       "comments": 1800,
-      "video": "src/assets/videos/mha.mp4",
+      "video": "/videos/mha.mp4",
       "anime": "Jujutsu Kaisen"
     },
     {
@@ -121,7 +121,7 @@
       "caption": "Tanjiro breathing technique 🔥",
       "likes": 25600,
       "comments": 990,
-      "video": "src/assets/videos/sanji.mp4",
+      "video": "/videos/sanji.mp4",
       "anime": "Demon Slayer"
     },
     {
@@ -131,7 +131,7 @@
       "caption": "Luffy Gear 5 transformation ☠️",
       "likes": 40100,
       "comments": 2100,
-      "video": "src/assets/videos/gojo.mp4",
+      "video": "/videos/gojo.mp4",
       "anime": "One Piece"
     }
   ],
@@ -158,7 +158,8 @@
     },
     {
       "id": "7",
-      "username": "demon_slayer"
+      "username": "demon_slayer",
+      "profilePic": "https://i.pravatar.cc/150?img=7"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
