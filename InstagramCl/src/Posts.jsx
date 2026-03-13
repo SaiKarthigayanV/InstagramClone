@@ -5,7 +5,7 @@ function Posts() {
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:3000/reels').
+        fetch('https://instagramclone-fhdt.onrender.com/reels').
             then((data) => data.json()).
             then((data => setPosts(data))).
             catch(err => console.log(err))
