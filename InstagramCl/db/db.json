@@ -1,0 +1,165 @@
+{
+  "reels": [
+    {
+      "id": "1",
+      "username": "naruto_fan",
+      "profilePic": "https://i.pravatar.cc/150?img=1",
+      "caption": "Never give up! Dattebayo 🔥",
+      "likes": 12890,
+      "comments": 540,
+      "video": "src/assets/videos/wolverine.mp4",
+      "anime": "Naruto"
+    },
+    {
+      "id": "2",
+      "username": "otaku_world",
+      "profilePic": "https://i.pravatar.cc/150?img=2",
+      "caption": "Levi vs Titans 🗡️",
+      "likes": 22100,
+      "comments": 1200,
+      "video": "src/assets/videos/asta.mp4",
+      "anime": "Attack on Titan"
+    },
+    {
+      "id": "3",
+      "username": "anime_reels",
+      "profilePic": "https://i.pravatar.cc/150?img=3",
+      "caption": "Gojo showing his power ⚡",
+      "likes": 30900,
+      "comments": 1800,
+      "video": "src/assets/videos/mha.mp4",
+      "anime": "Jujutsu Kaisen"
+    },
+    {
+      "id": "4",
+      "username": "demon_slayer",
+      "profilePic": "https://i.pravatar.cc/150?img=4",
+      "caption": "Tanjiro breathing technique 🔥",
+      "likes": 25600,
+      "comments": 990,
+      "video": "src/assets/videos/sanji.mp4",
+      "anime": "Demon Slayer"
+    },
+    {
+      "id": "5",
+      "username": "anime_edits",
+      "profilePic": "https://i.pravatar.cc/150?img=5",
+      "caption": "Luffy Gear 5 transformation ☠️",
+      "likes": 40100,
+      "comments": 2100,
+      "video": "src/assets/videos/gojo.mp4",
+      "anime": "One Piece"
+    }
+  ],
+  "profile": {
+    "id": 17,
+    "username": "Storm_Tyson",
+    "profilePic": "https://i.pravatar.cc/150?img="
+  },
+  "suggestions": [
+    {
+      "id": "6",
+      "username": "anime_edits",
+      "profilePic": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "id": "7",
+      "username": "demon_slayer",
+      "profilePic": "https://i.pravatar.cc/150?img=4"
+    },
+    {
+      "id": "8",
+      "username": "otaku_world",
+      "profilePic": "https://i.pravatar.cc/150?img=2"
+    },
+    {
+      "id": "9",
+      "username": "anime_edits",
+      "profilePic": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "id": "10",
+      "username": "anime_edits",
+      "profilePic": "https://i.pravatar.cc/150?img=5"
+    }
+  ],
+  "story": [
+    {
+      "id": "11",
+      "username": "naruto_fan",
+      "profilePic": "https://i.pravatar.cc/150?img=1",
+      "caption": "Never give up! Dattebayo 🔥",
+      "likes": 12890,
+      "comments": 540,
+      "video": "src/assets/videos/wolverine.mp4",
+      "anime": "Naruto"
+    },
+    {
+      "id": "12",
+      "username": "otaku_world",
+      "profilePic": "https://i.pravatar.cc/150?img=2",
+      "caption": "Levi vs Titans 🗡️",
+      "likes": 22100,
+      "comments": 1200,
+      "video": "src/assets/videos/asta.mp4",
+      "anime": "Attack on Titan"
+    },
+    {
+      "id": "13",
+      "username": "anime_reels",
+      "profilePic": "https://i.pravatar.cc/150?img=3",
+      "caption": "Gojo showing his power ⚡",
+      "likes": 30900,
+      "comments": 1800,
+      "video": "src/assets/videos/mha.mp4",
+      "anime": "Jujutsu Kaisen"
+    },
+    {
+      "id": "14",
+      "username": "demon_slayer",
+      "profilePic": "https://i.pravatar.cc/150?img=4",
+      "caption": "Tanjiro breathing technique 🔥",
+      "likes": 25600,
+      "comments": 990,
+      "video": "src/assets/videos/sanji.mp4",
+      "anime": "Demon Slayer"
+    },
+    {
+      "id": "15",
+      "username": "anime_edits",
+      "profilePic": "https://i.pravatar.cc/150?img=5",
+      "caption": "Luffy Gear 5 transformation ☠️",
+      "likes": 40100,
+      "comments": 2100,
+      "video": "src/assets/videos/gojo.mp4",
+      "anime": "One Piece"
+    }
+  ],
+  "followers": [
+    {
+      "id": "6",
+      "username": "anime_edits",
+      "profilePic": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "id": "7",
+      "username": "demon_slayer",
+      "profilePic": "https://i.pravatar.cc/150?img=4"
+    },
+    {
+      "id": "8",
+      "username": "otaku_world",
+      "profilePic": "https://i.pravatar.cc/150?img=2"
+    },
+    {
+      "id": "9",
+      "username": "anime_edits",
+      "profilePic": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "id": "7",
+      "username": "demon_slayer"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
