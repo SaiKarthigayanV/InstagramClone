@@ -7,11 +7,11 @@ function Profiles() {
     const [followers, setFollowers] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:3000/profile').
+        axios.get('https://instagram-backend-pd7t.onrender.com/profile').
         then(data => setProfile(data.data)).
         catch(err => console.log(err))
 
-        axios.get('http://localhost:3000/followers').
+        axios.get('https://instagram-backend-pd7t.onrender.com/followers').
         then(data => setFollowers(data.data)).
         catch(err => console.log(err))
     },[]);
@@ -24,13 +24,13 @@ function Profiles() {
     }
 
     const handleUpdate = async () => {
-        axios.put('http://localhost:3000/profile',profile).
+        axios.put('https://instagram-backend-pd7t.onrender.com/profile',profile).
         then(console.log("Updated")).
         catch(err => console.log(err))
     }
 
     const handleUnFollow = async (id) => {
-        axios.delete(`http://localhost:3000//followers/${id}`)
+        axios.delete(`https://instagram-backend-pd7t.onrender.com/followers/${id}`)
         .then(alert("UnFollwed..."))
         .catch(err => console.log(err))
     }

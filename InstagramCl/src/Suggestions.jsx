@@ -7,19 +7,19 @@ function Suggestions() {
     const [suggestions, setSuggestions] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:3000/profile').
+        fetch('https://instagram-backend-pd7t.onrender.com/profile').
             then(data => data.json()).
             then(data => setProfile(data)).
             catch(err => console.log(err))
 
-        fetch('http://localhost:3000/suggestions').
+        fetch('https://instagram-backend-pd7t.onrender.com/suggestions').
             then(data => data.json()).
             then(data => setSuggestions(data)).
             catch(err => console.log(err))
     },[]);
 
     const handleFollow = async (id, username) => {
-        axios.post('http://localhost:3000/followers',{"id":id, "username":username}).
+        axios.post('https://instagram-backend-pd7t.onrender.com/followers',{"id":id, "username":username}).
         then(alert('Followed...')).
         catch(err => console.log(err))
     }
