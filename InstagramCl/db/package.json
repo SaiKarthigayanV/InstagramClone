@@ -1,0 +1,19 @@
+{
+  "name": "instagramcl_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaiKarthigayanV/instagramcl_backend.git"
+  },
+  "author": "sai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaiKarthigayanV/instagramcl_backend/issues"
+  },
+  "homepage": "https://github.com/SaiKarthigayanV/instagramcl_backend#readme"
+}
